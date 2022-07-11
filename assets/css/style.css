@@ -413,6 +413,12 @@ input{
     margin-bottom: var(--mb-0-75);
 }
 
+.about__description1 {
+    text-align: justify;
+    padding-right: 6rem;
+    margin-bottom: 10px;
+}
+
 .about__description{
     text-align: justify;
     padding-right: 6rem;
@@ -935,6 +941,11 @@ textarea.input {
         column-gap: 2.5rem;
     }
 
+    .about__description1 {
+        padding-right: 0;
+    }
+
+
     .about__description {
         padding-right: 0;
     }
@@ -1028,6 +1039,11 @@ textarea.input {
 
     .about__box {
         padding: .75rem .5rem; 
+    }
+
+    .about__description1 {
+        padding: 0 4rem;
+        text-align: center;
     }
 
     .about__description {
@@ -1175,6 +1191,10 @@ textarea.input {
 
     .about__info {
         grid-template-columns: repeat(3,1fr);
+    }
+
+    .about__description1 {
+        padding: 0;
     }
 
     .about__description {
