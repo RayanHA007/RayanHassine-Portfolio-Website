@@ -17,7 +17,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-
+// load more button
 const loadmore = document.querySelector('#loadmore');
     let currentItems = 2;
     loadmore.addEventListener('click', (e) => {
